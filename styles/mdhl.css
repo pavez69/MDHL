@@ -1,72 +1,125 @@
-
-body {
-    font-family: Arial, sans-serif;
+*{
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
-    color: #333;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+ 
+   
+}
+tbody{
+    border:  1px #5fa199 ;
+    
 }
 
 
-
-.header {
-    background-color: #7fa964;
-    color: white;
-    text-align: center;
+.custom-header {
+    background-color: #f2f2f2;
     padding: 20px 0;
-}
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/hockey_2.jpg);
+    background-position: center 20%;
+    height: 500px;
+    width: 100vw;
+  }
+  .custom-header_2 {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/hockey_1.jpg);
+    background-position: center 20%;
+    height: 500px;
+    width: 100vw;
+  }
+  
 
-.header h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
+
+.custom-header h1 {
+    margin: 10px 0;
 }
 
 .navbar {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    margin-top: 10px;
+    background-color: #ffffff5e;
+   width: 100%;
+    
 }
 
 .navbar a {
+    padding: 10px 20px;
     text-decoration: none;
-    color: white;
-    padding: 5px 10px;
+    color: black;
+    margin: 0 5px;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
+    
+}
+.bordertable{
+    border-bottom: solid 1px #5fa199;
 }
 
-
-
-.banner {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
-    height: auto;
+.navbar a:hover {
+    background-color: #5fa199;
+    color: white;
+    
 }
+.form{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    background-color: #5fa199;
+    color: white;
 
-
-
-h2 {
+}
+.h2{
+    color: #333; /* Color del texto */
+    font-size: 28px; /* Tamaño de fuente */
     text-align: center;
-    margin-top: 30px;
+    margin-left: 40px; /* Márgen izquierdo */
+    margin-right: 40px; /
+    
 }
 
-article {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+.h3{
+    color: #333; /* Color del texto */
+    font-size: 28px; /* Tamaño de fuente */
+    text-align: center;
+    
 }
+.p{
+    color: #666; 
+    font-size: 16px; 
+    line-height: 1.6;
+    color: #666; 
+  font-size: 16px; 
+  line-height: 1.6; 
+  text-align: center; 
+  margin-left: 30%; 
+  margin-right: 30%;
+  
+ }
 
-.logo {
-    width: 100px; 
-    height: auto;
-    margin-right: 20px;
-}
 
-main {
-    max-width: 600px;
-}
+
+
 
 
 
@@ -74,65 +127,11 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 20px 0;
-}
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-    color: #333;
-}
-
-
-
-.headabout {
-    background-color: #7fa964;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-}
-
-.headabout h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-.navabout {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 10px;
-}
-
-.navabout a {
-    text-decoration: none;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
-
-
-main {
     padding: 20px;
 }
 
-section {
-    margin-bottom: 20px;
-}
-
-h3 {
-    color: #7fa964;
-}
-
-
-img {
-    max-width: 100%;
-    height: auto;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    float: left;
+footer a {
+    color: #5fa199;
 }
 body {
     font-family: Arial, sans-serif;
@@ -142,81 +141,10 @@ body {
     color: #333;
 }
 
-
-
-.header {
-    background-color: #7fa964;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-}
-
-.header h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 10px;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
-
-
-.banner {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
-    height: auto;
-}
-
-
-
-h2 {
-    text-align: center;
-    margin-top: 30px;
-}
-
-article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.logo {
-    width: 150px; 
-    height: auto;
-    margin-bottom: 20px;
-}
-
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-}
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-    color: #333;
-}
-
+/* Estilos para el encabezado */
 
 header {
-    background-color: #7fa964;
+    background-color: #5fa199;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -235,6 +163,7 @@ header .navbar a {
     margin: 0 5px;
 }
 
+/* Estilos para el contenido principal */
 
 main {
     padding: 20px;
@@ -242,29 +171,33 @@ main {
 
 h2 {
     margin-top: 20px;
-    color: #7fa964;
+    color: #5fa199;
 }
 
 p {
+    margin-left: 20px; /* Márgen izquierdo */
+    margin-right: 20px; 
     line-height: 1.5;
 }
 
 ol,
 ul {
+    
     margin-left: 20px;
 }
 
 ol li,
 ul li {
     margin-bottom: 10px;
+    
 }
 
 span {
     font-weight: bold;
+    
 }
-
 .header {
-    background-color: #7fa964;
+    background-color: #5fa199;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -283,17 +216,19 @@ span {
     margin: 0 5px;
 }
 
+/* Estilos para el contenido principal */
 .main {
     padding: 20px;
 }
 
 .main .schedule-heading {
     margin-top: 20px;
-    color: #7fa964;
+    color: #5fa199;
 }
 
-.main .schedule-info {
+.p {
     line-height: 1.5;
+    
 }
 
 .main .schedule-table {
@@ -304,16 +239,17 @@ span {
 
 .main .schedule-table th,
 .main .schedule-table td {
-    border: 1px solid #7fa964;
+    border: 1px solid #5fa199;
     padding: 8px;
     text-align: center;
 }
 
 .main .schedule-table th {
-    background-color: #7fa964;
+    background-color: #5fa199;
     color: white;
 }
 
+/* Estilos para el pie de página */
 .footer {
     background-color: #333;
     color: white;
@@ -323,11 +259,51 @@ span {
 
 .footer span {
     font-weight: bold;
-    color: #7fa964;
+    color: #5fa199;
 }
 
 .footer a {
     color: white;
     text-decoration: none;
-    border-bottom: 1px solid #7fa964;
+    border-bottom: 1px solid #5fa199;
 }
+.map-container, .map-container2, .map-container3, .map-container4,.map-container5
+,.map-container6 {
+    position: relative;
+  }
+  
+  .map-overlay, .map-overlay2, .map-overlay3, .map-overlay4, .map-overlay5, .map-overlay6 {
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 11%;
+    z-index: 1;
+    width: 600px;
+  }
+  
+  td.map-container, td.map-container2,td.map-container3, td.map-container4, td.map-container5,
+  td.map-container6{
+    text-decoration: underline;
+    color: black;
+  }
+  td.map-container:hover, td.map-container2:hover,
+  td.map-container3:hover,td.map-container4:hover,
+   td.map-container5:hover,
+   td.map-container6:hover{
+    text-decoration: none;
+    color: #5fa199;
+  
+  }
+   td.map-container:hover .map-overlay, td.map-container2:hover .map-overlay2,
+   td.map-container3:hover .map-overlay3,td.map-container4:hover .map-overlay4,
+   td.map-container5:hover .map-overlay5,
+   td.map-container6:hover .map-overlay6 {
+    display: block;
+  
+  }
+
+
+
+
+
+
