@@ -60,6 +60,7 @@ tbody{
     
 }
 
+
 .navbar a {
     padding: 10px 20px;
     text-decoration: none;
@@ -90,17 +91,17 @@ tbody{
 
 }
 .h2{
-    color: #333; /* Color del texto */
-    font-size: 28px; /* Tamaño de fuente */
+    color: #333; 
+    font-size: 28px; 
     text-align: center;
-    margin-left: 40px; /* Márgen izquierdo */
-    margin-right: 40px; /
+    margin-left: 40px; 
+    margin-right: 40px; 
     
 }
 
 .h3{
-    color: #333; /* Color del texto */
-    font-size: 28px; /* Tamaño de fuente */
+    color: #333; 
+    font-size: 28px; 
     text-align: center;
     
 }
@@ -141,7 +142,7 @@ body {
     color: #333;
 }
 
-/* Estilos para el encabezado */
+
 
 header {
     background-color: #5fa199;
@@ -163,7 +164,7 @@ header .navbar a {
     margin: 0 5px;
 }
 
-/* Estilos para el contenido principal */
+
 
 main {
     padding: 20px;
@@ -175,7 +176,7 @@ h2 {
 }
 
 p {
-    margin-left: 20px; /* Márgen izquierdo */
+    margin-left: 20px; 
     margin-right: 20px; 
     line-height: 1.5;
 }
@@ -216,7 +217,7 @@ span {
     margin: 0 5px;
 }
 
-/* Estilos para el contenido principal */
+
 .main {
     padding: 20px;
 }
@@ -249,7 +250,6 @@ span {
     color: white;
 }
 
-/* Estilos para el pie de página */
 .footer {
     background-color: #333;
     color: white;
